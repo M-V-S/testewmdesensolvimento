@@ -71,9 +71,9 @@
                 </div>
 
                 <div class="col-7">
-                    <label for="agendamento_status">Data</label>
+                    <label for="agendamento_data">Data</label>
 
-                    <input type="date" class="form-control col-3" min="<?php echo $dateAtual; ?>"
+                    <input type="date" class="form-control col-3" min="<?php echo $editarAgendamento["data_atendimento"];?>"
                            value="<?php echo $editarAgendamento["data_atendimento"]; ?>" name="data_atendimento"
                            required><br>
                     <div class="valid-feedback">
